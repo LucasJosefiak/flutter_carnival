@@ -17,12 +17,7 @@ class HotReload extends StatelessWidget {
     return Widgetbook.material(
       directories: directories,
       addons: [
-        AccessibilityAddon(),
         TimeDilationAddon(),
-        InspectorAddon(),
-        AlignmentAddon(
-          initialAlignment: Alignment.center,
-        ),
       ],
       integrations: [
         // To make addons & knobs work with Widgetbook Cloud
